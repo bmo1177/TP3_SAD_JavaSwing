@@ -1,5 +1,22 @@
 # Système d'Aide à la Décision (DSS) - Gestion Intelligente des Stocks
 
+![Application Interface](screenshots/Screenshot%202025-11-14%20234828.png)
+
+<div align="center">
+  
+### 🎯 Système d'Aide à la Décision Moderne pour la Gestion des Stocks
+
+[![Java](https://img.shields.io/badge/Java-23-orange.svg)](https://www.oracle.com/java/)
+[![Swing](https://img.shields.io/badge/UI-Swing-blue.svg)](https://docs.oracle.com/javase/tutorial/uiswing/)
+[![Maven](https://img.shields.io/badge/Build-Maven-red.svg)](https://maven.apache.org/)
+[![DSS](https://img.shields.io/badge/Type-DSS-green.svg)](https://en.wikipedia.org/wiki/Decision_support_system)
+
+**Interface moderne** • **Algorithmes EOQ** • **Analyse What-If** • **Visualisations avancées**
+
+</div>
+
+---
+
 ## 📋 Résumé Exécutif
 
 Ce projet implémente un **Système d'Aide à la Décision (DSS)** moderne pour la gestion optimisée des stocks, développé dans le cadre du cours "Systèmes d'aide à la décision" (L3 ISIL) à l'Université Ibn Khaldoun - Tiaret. Le système combine des algorithmes d'optimisation avancés (EOQ, Point de Commande) avec une interface utilisateur professionnelle pour fournir des recommandations intelligentes de réapprovisionnement.
@@ -54,15 +71,29 @@ Où **C** = Coût unitaire d'achat, **Q** = Quantité commandée
 
 ## 📊 Fonctionnalités Implémentées
 
+![Application Demo](screenshots/Screenshot%202025-11-14%20235039.png)
+
 ### 1. Dashboard Exécutif
 - **KPIs en temps réel** : Nombre de produits, alertes, valeur totale, unités en stock
 - **Système d'alertes visuelles** : Identification automatique des stocks faibles
 - **Métriques de performance** : Prix moyen, demande totale, rotation des stocks
 
+![Dashboard Overview](screenshots/Screenshot%202025-11-14%20234828.png)
+*Vue d'ensemble du tableau de bord avec KPIs en temps réel*
+
 ### 2. Gestion Avancée de l'Inventaire
 - **CRUD complet** : Création, lecture, mise à jour, suppression des produits
 - **Calculs automatiques** : EOQ, point de commande, analyse des coûts
 - **Recommandations intelligentes** : Suggestions basées sur les algorithmes DSS
+
+![Inventory Management](screenshots/Screenshot%202025-11-14%20234836.png)
+*Interface de gestion des produits avec détails et recommandations*
+
+![Add Product](screenshots/Screenshot%202025-11-14%20234840.png)
+*Dialogue d'ajout de nouveaux produits*
+
+![Update Stock](screenshots/Screenshot%202025-11-14%20234924.png)
+*Modification des niveaux de stock*
 
 ### 3. Simulation What-If
 #### Fonctionnalité "Comparer Scenarios"
@@ -84,6 +115,9 @@ int[] demandes = {
 - **Gestion des risques** : Identification des situations critiques
 - **Optimisation des coûts** : Comparaison des stratégies de réapprovisionnement
 
+![Simulation What-If](screenshots/Screenshot%202025-11-14%20234945.png)
+*Interface de simulation avec analyse comparative de scénarios*
+
 ### 4. Analytics et Visualisation
 - **Graphiques personnalisés** : Utilisation de Java Graphics2D
 - **Quatre types de visualisations** :
@@ -91,6 +125,17 @@ int[] demandes = {
   - Répartition de la valeur (camembert)
   - Tendances demande vs stock (lignes)
   - Statut des seuils (barres colorées)
+
+![Analytics Dashboard](screenshots/Screenshot%202025-11-14%20235004.png)
+*Tableau de bord analytique avec 4 types de visualisations*
+
+### 5. Système d'Export et de Rapports
+- **Export automatique** : Génération de graphiques PNG
+- **Rapports textuels** : Fichiers de données structurées
+- **Sauvegarde périodique** : Historique des analyses
+
+![Export System](screenshots/Screenshot%202025-11-14%20235021.png)
+*Système d'export avec fichiers générés automatiquement*
 
 ## 🧮 Algorithmes et Calculs
 
@@ -124,6 +169,9 @@ public Recommendation recommanderReapprovisionnement(int demande) {
 4. **Niveau de service** : `Min(Stock, Demande) / Demande × 100`
 
 ## 🎨 Interface Utilisateur
+
+![Settings Panel](screenshots/Screenshot%202025-11-14%20235030.png)
+*Panneau de configuration avec paramètres avancés*
 
 ### Design Principles
 - **Material Design** : Couleurs cohérentes, ombres subtiles
@@ -204,6 +252,26 @@ DSS-Stock-Management/
 ├── README.md                       # Documentation scientifique
 └── *.md                           # Documentation complémentaire
 ```
+
+## 📱 Aperçu Visuel Complet
+
+### Interface Principale
+| Dashboard | Inventaire | Simulation |
+|-----------|------------|------------|
+| ![Dashboard](screenshots/Screenshot%202025-11-14%20234828.png) | ![Inventory](screenshots/Screenshot%202025-11-14%20234836.png) | ![Simulation](screenshots/Screenshot%202025-11-14%20234945.png) |
+| Vue d'ensemble avec KPIs | Gestion des produits | Analyse What-If |
+
+### Analytics et Configuration
+| Analytics | Configuration | Exports |
+|-----------|---------------|---------|
+| ![Analytics](screenshots/Screenshot%202025-11-14%20235004.png) | ![Settings](screenshots/Screenshot%202025-11-14%20235030.png) | ![Exports](screenshots/Screenshot%202025-11-14%20235021.png) |
+| Visualisations avancées | Paramètres système | Système d'export |
+
+### Fonctionnalités CRUD
+| Ajouter Produit | Modifier Stock | Gestion Détails |
+|-----------------|----------------|------------------|
+| ![Add](screenshots/Screenshot%202025-11-14%20234840.png) | ![Update](screenshots/Screenshot%202025-11-14%20234924.png) | ![Details](screenshots/Screenshot%202025-11-14%20234836.png) |
+| Interface d'ajout | Modification stock | Informations détaillées |
 
 ## 🚀 Installation et Exécution
 
