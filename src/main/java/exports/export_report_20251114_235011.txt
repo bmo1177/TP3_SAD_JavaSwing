@@ -1,0 +1,32 @@
+RAPPORT D'EXPORT - ANALYTICS DSS
+================================
+
+Date d'export: 14/11/2025 à 23:50:11
+Système: DSS - Gestion Intelligente des Stocks
+Université: Ibn Khaldoun - Tiaret | Module: SAD | L3 ISIL
+
+RÉSUMÉ DES DONNÉES
+==================
+Nombre total de produits: 7
+Produits en alerte: 0
+Valeur totale du stock: 2087500.00 DA
+Stock total (unités): 215
+
+DÉTAIL DES PRODUITS
+===================
+• Laptop Dell: 25 unités (seuil: 10) - Valeur: 1125000.00 DA
+• Souris Sans Fil: 50 unités (seuil: 15) - Valeur: 75000.00 DA
+• Clavier Mécanique: 30 unités (seuil: 12) - Valeur: 105000.00 DA
+• Écran 24": 15 unités (seuil: 8) - Valeur: 270000.00 DA
+• Casque Audio: 40 unités (seuil: 18) - Valeur: 160000.00 DA
+• Disque SSD 1TB: 20 unités (seuil: 10) - Valeur: 160000.00 DA
+• Webcam HD: 35 unités (seuil: 14) - Valeur: 192500.00 DA
+
+
+FICHIERS EXPORTÉS
+=================
+1. stock_analysis_20251114_235011.png - Analyse des niveaux de stock
+2. value_distribution_20251114_235011.png - Répartition de la valeur
+3. demand_analysis_20251114_235011.png - Analyse demande vs stock
+4. threshold_status_20251114_235011.png - Status des seuils
+5. export_report_20251114_235011.txt - Ce rapport
